@@ -1,0 +1,10 @@
+ <Patches>
+ <Patch name="Weapon Guard innate all">
+    <Description>Disables Weapon Guard's slot. Units with a weapon equipped get W-ev added automatically.</Description>
+    <Location file="BATTLE_BIN" offset="11E0C8">
+      00000000
+      00000000
+      00000000
+    </Location>
+  </Patch>
+</Patches>
