@@ -1,0 +1,7 @@
+<Patches>
+<Patch name="Abilities in Math Skill can be reflected">
+<Location file="BATTLE_BIN" offset="125ff4">
+00000000
+</Location>
+</Patch>
+</Patches>
