@@ -1,0 +1,16 @@
+ <Patches>
+ <Patch name="Disable game music">
+    <Description>
+      To finally play on turbo with your own songs while the sound effects are still enabled.
+    </Description>
+    <Location file="SCUS_942_21" offset="33DF4">
+      01000234
+    </Location>
+    <Location file="SCUS_942_21" offset="33E90">
+      01000234
+    </Location>
+    <Location file="SCUS_942_21" offset="34010">
+      01000234
+    </Location>
+  </Patch>
+</Patches>
