@@ -1,0 +1,7 @@
+<Patches>
+<Patch name="Knockback removed from critical hits">
+<Location file="BATTLE_BIN" offset="11F550">
+00000000
+</Location>
+</Patch>
+</Patches>
