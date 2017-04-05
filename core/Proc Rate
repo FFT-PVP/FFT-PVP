@@ -1,0 +1,38 @@
+<Patches>
+<Patch name="Proc rate hack">
+<Description>
+'Enemy level' sets an item's proc rate
+'Chance to learn' sets an ability's proc rate
+
+It doesn't seem to affect Separate way to inflict status.
+    <Location file="BATTLE_BIN" offset="1206A8">
+      9A760508
+      1980023C
+    </Location>
+    <Location file="BATTLE_BIN" offset="F6A68">
+      D6384594
+      00000000
+      0A00A014
+      00000000
+      D8384590
+      0C000324
+      1800A300
+      12280000
+      0680033C
+      21186500
+      BA2E6590
+      AD760508
+      00000000
+      08000324
+      1800A300
+      12280000
+      0680033C
+      21186500
+      F2EB6590
+      3378010C
+      00000000
+      AC1D0608
+      00000000
+    </Location>
+</Patch>
+</Patches>
