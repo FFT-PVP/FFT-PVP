@@ -1,0 +1,5 @@
+<Patches>
+<Patch name="(1) Force a good checksum for save files">
+<Location file="WORLD_WORLD_BIN" offset="503F6">63</Location>
+</Patch>
+</Patches>
