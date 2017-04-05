@@ -1,3 +1,4 @@
+<Patches>
 <Patch name="Frog Text On-Hit Display">
     <Description>
       Display "Frog" text image when a unit receives or loses Frog status.
@@ -6,3 +7,4 @@
       30
     </Location>
   </Patch>
+</Patches>
