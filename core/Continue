@@ -1,0 +1,13 @@
+<Patches>
+<Patch name ="New Game to Continue">
+<Description>Sets the title screens default option from New Game to Continue.</Description>
+<Location file="OPEN_OPEN_BIN" offset="00003490">
+0880023C
+40534124
+21082300
+01000434
+000024AC
+40534124
+</Location>
+</Patch>
+</Patches>
