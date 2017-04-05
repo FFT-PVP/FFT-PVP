@@ -1,0 +1,7 @@
+<Patches>
+<Patch name="Remove forced slowdown for Math Skill (Skillset ID 0x15)">
+    <Location file="BATTLE_BIN" offset="115F74">
+      00000000
+    </Location>
+  </Patch>
+</Patches>
