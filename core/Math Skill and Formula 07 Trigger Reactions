@@ -1,0 +1,17 @@
+<Patches>
+  <Patch name="Remove more silly hardcoding (reaction routine)">
+    <Description>Allows formula 0x07 and skillset 0x15 to trigger reaction abilities.</Description>
+    <Location file="BATTLE_BIN" offset="125b10">
+      00000000
+    </Location>
+    <Location file="BATTLE_BIN" offset="125cc4">
+      00000000
+    </Location>
+    <Location file="BATTLE_BIN" offset="125ce8">
+      00000000
+    </Location>
+    <Location file="BATTLE_BIN" offset="125e1c">
+      00000000
+    </Location>
+  </Patch>
+</Patches>
