@@ -1,0 +1,11 @@
+<Patches>
+<Patch name="Compatibility is no longer calculated twice for no reason in spell accuracy, silly hardcoding to Golem's slot removed">
+    <Description>nop nop</Description>
+    <Location file="BATTLE_BIN" offset="11f5b0">
+      00000000
+    </Location>
+    <Location file="BATTLE_BIN" offset="11f5d0">
+      00000000
+    </Location>
+  </Patch>
+</Patches>
