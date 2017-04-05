@@ -1,0 +1,23 @@
+<Patches>
+<Patch name="Monster Skill is disabled">
+    <Description>All monsters can use their 4 skills as if Monster Skill never existed. Also frees space from 0x80182438 to 0x80182660 (BATTLE.BIN).</Description>
+    <Location file="BATTLE_BIN" offset="135C00">
+      80000234
+    </Location>
+    <Location file="BATTLE_BIN" offset="1345D8">
+      80000234
+    </Location>
+    <Location file="BATTLE_BIN" offset="11B430">
+      0800E003
+      01000234
+    </Location>
+    <Location file="BATTLE_BIN" offset="133960">
+      00000000
+      00000000
+      00000000
+      00000000
+      00000000
+      00000000
+    </Location>
+  </Patch>
+</Patches>
