@@ -1,0 +1,8 @@
+<Patches>   
+   <Patch name="Display 4 monster skills in formation">
+    <Description>^^^^^</Description>
+    <Location file="WORLD_WORLD_BIN" offset="40e5c">
+04008228
+    </Location>
+  </Patch>
+</Patches>  
