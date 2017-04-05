@@ -1,0 +1,8 @@
+<Patch name="Frog Text On-Hit Display">
+    <Description>
+      Display "Frog" text image when a unit receives or loses Frog status.
+   </Description>
+    <Location file="BATTLE_BIN" offset="2CD2E">
+      30
+    </Location>
+  </Patch>
