@@ -1,0 +1,11 @@
+<Patches>
+<Patch name="Instant skills blink red if unusable due to silence/out of mp">
+    <Description>^^^^^</Description>
+    <Location file="BATTLE_BIN" offset="d90bc">
+      00000000
+    </Location>
+    <Location file="BATTLE_BIN" offset="d90f4">
+      00000000
+    </Location>
+  </Patch>
+</Patches>
